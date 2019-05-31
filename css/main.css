@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('variables.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+hr{
+    margin:-1px 0px -1px 0px;
+    background-color: var(--color-opgegeven);
+    color: var(--color-opgegeven);
+    height:4px;
+}

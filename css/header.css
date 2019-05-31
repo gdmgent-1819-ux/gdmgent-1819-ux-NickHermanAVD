@@ -1,0 +1,33 @@
+header{
+    background-color: #48595C;
+    height: 7em;
+    position:relative;
+}
+#header_logo{
+    height: 6em;
+    position:absolute;
+    bottom:5px;
+    left: 10em;
+}
+#navigator{
+    position: absolute;
+    list-style-type: none;
+    bottom: 1em;
+    right: 10em;
+}
+.navigator_links{
+    list-style-type: none;
+    display: inline;
+    margin-left: 3em;
+    color:white;
+    font-weight: bold;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+.navigator_text:hover{
+    border-bottom: 2px solid white;
+    color: #C3C3C2;
+}

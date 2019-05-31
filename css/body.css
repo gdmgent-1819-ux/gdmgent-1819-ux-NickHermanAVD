@@ -1,0 +1,203 @@
+/*--------------------------HOMEPAGE----------------------------*/
+main{
+    background-color: #C3C3C2;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+#frontpage{
+    display:flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+}
+h1{
+    font-family: 'Gabriola';
+    font-size: 5em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2em;
+}
+#ondertitel{
+    margin-left:auto;
+    margin-right:auto;
+}
+#enter_button{
+    border-style:none;
+    margin: 5em 0 10em 0;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    background-color: var(--color-opgegeven);
+    padding: 15px 15px;
+    border-radius: 12px;
+    font-size: 11pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+/*--------------------------ACCOMODATIONS----------------------------*/
+#grid{
+    display: flex;
+    flex-direction: column;
+}
+
+#room_listing{
+    height:30em;
+    
+    margin: 5em 5em 0em 5em;
+    display:flex;
+    flex-direction: column;
+}
+#room_listing_bottom{
+    height:30em;
+    
+    margin: 5em 5em 5em 5em;
+    display:flex;
+    flex-direction: column;
+}
+.room_display1{
+    height:25em;
+    width:50em;
+    background-image: url(../assets/family_room.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+}
+.room_display1:hover{
+    transition: 1s;
+    filter: brightness(75%);
+    transform: scale(1.01);
+}
+.room_display2{
+    height:25em;
+    width:50em;
+    background-image: url(../assets/couples_room.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+}
+.room_display2:hover{
+    transition: 1s;
+    filter: brightness(75%);
+    transform: scale(1.01);
+}
+.room_display3{
+    height:25em;
+    width:50em;
+    background-image: url(../assets/modern_room.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+}
+.room_display3:hover{
+    transition: 1s;
+    filter: brightness(75%);
+    transform: scale(1.01);
+}
+.room_listing_description{
+    width:50em;
+    height:3em;
+    margin-left:auto;
+    margin-right:auto;
+}
+h2{
+    font-family: 'Kodchasan', sans-serif;
+    color: var(--color-opgegeven);
+    font-size: 2em;
+    font-weight: bold;
+}
+.listing_beschrijving{
+    font-size: 14pt;
+}
+.meer_info{
+    color: #48595C;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.meer_info:hover{
+    color:grey;
+}
+
+
+
+
+/*--------------------------ABOUT----------------------------*/
+#about_contact{
+    margin: 0em 6em;
+    padding: 2em 0;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact_ondertitel{
+    margin-top: 1em;
+}
+#clickable_email{
+    color: #48595C;
+    font-weight: bold;
+}
+#location_map{
+    border: 4px solid #48595C;
+    margin-top:2em;
+}
+.map{
+    position:relative;
+    text-align:right;
+    height:250px;
+    width:250px;
+}
+.google_map{
+    overflow:hidden;
+    background:none!important;
+    height:250px;
+    width:250px;
+}
+
+#FAQ{
+    display:flex;
+    flex-direction: column;
+}
+#faq_title{
+    margin: 0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1em;
+    margin-bottom: 20px;
+    font-size: 4em;
+}
+.question{
+    margin-left:3em;
+    font-size: 2em;
+}
+.answer{
+    margin:0em 6em 3em 6em;
+}
+
+
+
+
+/*--------------------------RESERVATIE----------------------------*/
+
+#oder_page{
+    min-height:90vh;
+}
+
+.default_reservatie{
+    color:white;
+    font-size: 16pt;
+    letter-spacing:1px;
+    font-weight:bold;
+    padding: 3em;
+}
+
+
+
+
+/*--------------------------KAMERS----------------------------*/
+

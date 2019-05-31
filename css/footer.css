@@ -1,0 +1,37 @@
+footer{
+    height:7em;
+    background-color: #48595C;
+    position: relative;
+}
+#footer_links{
+    position: absolute;
+    list-style-type: none;
+    bottom: 1em;
+    left: 20em;
+}
+.footer_link{
+    font-size: 11pt;
+}
+
+#footer_logo{
+    height: 6em;
+    position:absolute;
+    bottom:5px;
+    left: 10em;
+}
+
+#link_icons{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    position:absolute;
+    right: 10em;
+    bottom: 1em;
+}
+
+.social_icon{
+    width:35px;
+    height:35px;
+    padding-left:5px;
+}
